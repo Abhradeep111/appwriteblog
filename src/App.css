@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  color: #152538;
+  background:
+    radial-gradient(circle at top left, rgba(255, 247, 237, 0.92), transparent 26%),
+    radial-gradient(circle at top right, rgba(191, 219, 254, 0.58), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(220, 252, 231, 0.5), transparent 24%),
+    linear-gradient(135deg, #f8fafc 0%, #edf4ff 46%, #f3ede2 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 1.5rem 0 0;
+}
